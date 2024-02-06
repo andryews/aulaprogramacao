@@ -1,0 +1,33 @@
+body {
+    padding-top: 50px;
+    background-image: url(gif.webp)
+  }
+  .profile-card {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #49b0f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  .profile-name {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .botao-link{
+    padding: 10px 20px;
+    width: 100px;
+    background-color: #e2edf0;
+    color: black;
+    border: none; /* Remover a borda padrão do botão */
+    border-radius: 5px;
+    text-decoration: none !important;
+    transition: background-color 0.3s, border-color 
+    0.3s, color 0.3s; /* Adicionar transição de efeito hover */
+  }
